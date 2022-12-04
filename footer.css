@@ -1,0 +1,36 @@
+.footer {
+  background-color: rgb(218, 155, 255);
+  /* border-top: 1px black solid; */
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 7em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+  color: #fff5fa;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(152, 70, 152);
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  gap: 1em;
+}
+
+.svg {
+  fill: rgb(152, 70, 152);
+}

@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 7em;
+  gap: 1em;
+
+  color: #fff5fa;
+  background-color: rgb(252, 76, 140);
+  /* border-bottom: 1px black solid; */
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}

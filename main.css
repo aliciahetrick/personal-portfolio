@@ -1,0 +1,55 @@
+.main-home {
+  /* background-color: yellow; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-main {
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  gap: 1em;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alicia-image {
+  max-width: 250px;
+  max-height: auto;
+  border-radius: 5%;
+}
+
+.name {
+  text-align: center;
+  color: #f578a6;
+  font-size: 2em;
+  font-weight: 800;
+
+  font-family: 'Raleway';
+  text-transform: uppercase;
+}
+
+.role {
+  text-align: center;
+  color: rgb(152, 70, 152);
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 750px) {
+  .alicia-image {
+    max-width: 500px;
+    max-height: auto;
+  }
+}

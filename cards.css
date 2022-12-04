@@ -1,0 +1,65 @@
+.cards {
+  /* border: 5px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: yellow; */
+  margin-bottom: 10em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  max-width: 300px;
+  border-radius: 5%;
+}
+
+.card-text {
+  color: rgb(152, 70, 152);
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  max-width: 300px;
+  border-bottom: 0.2em solid #f578a6;
+}
+
+.card-content {
+  text-align: justify;
+}
+
+/* .card-content:last-child {
+  border-bottom: none;
+} */
+
+.card-title {
+  text-align: center;
+  color: #f578a6;
+  font-size: 1em;
+  font-weight: 800;
+
+  margin-top: 1em;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+}
+
+@media (min-width: 800px) {
+  .cards {
+    margin-bottom: 10em;
+  }
+  .card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
