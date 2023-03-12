@@ -30,20 +30,31 @@
 
 .name {
   text-align: center;
-  color: #f578a6;
+  color: rgb(252, 76, 140);
   font-size: 2em;
   font-weight: 800;
-
+  width: 400px;
   font-family: 'Raleway';
   text-transform: uppercase;
 }
 
 .role {
   text-align: center;
+  color: #f578a6;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 1.9em;
+  width: 400px;
+  text-transform: uppercase;
+}
+
+.stack {
+  text-align: center;
   color: rgb(152, 70, 152);
   font-family: 'Raleway';
   font-weight: 800;
-  font-size: 1em;
+  width: 400px;
+  font-size: 0.8em;
   text-transform: uppercase;
 }
 
